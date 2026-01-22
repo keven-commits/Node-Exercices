@@ -1,1 +1,2 @@
+/// Créer une fonction qui va s’appele « Stats » qui prend une liste de nombre et qui retourne un objet qui retourne la moyenne, le plus haut, le plus bas et le nombre de résultat supérieur à 70%
 console.log("Hello World")

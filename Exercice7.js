@@ -1,1 +1,2 @@
+/// Créer une foocntion qui s’appele « FindClosest » qui prend 2 parametre, 1 : une liste de nombre 2 : une cible, la fonction va retourner les 2 chiffre les plus proche de la cible
 console.log("Hello World")
