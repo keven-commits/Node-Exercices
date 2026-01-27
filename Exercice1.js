@@ -1,14 +1,16 @@
 /// Créer une fonction qui prend une liste de nombre, dans ce cas-ci l'âge d'une personne et qui retourne un array de ceux qui sont adulte
 
-const personnes = [{ nom: 'Keven', age: 19 },{ nom: 'Roger', age: 21 },{ nom: 'Sylvain', age: 16 },{ nom: 'Jérome', age: 24 }];
+//https://www.w3schools.com/js/js_array_methods.asp
+const ages = [19, 21, 16, 24, 15, 18, 17, 30];
 
-function personnesAdultes(Personne) {
-    const Adultes = [];
-    for (let i = 0; i < Personne.length; i++) {
-        if (Personne[i].age >= 18) {
-            Adultes[Adultes.length] = Personne[i];
+function personnesAdultes(ages) {
+    const major = []
+    ages.forEach(age => {
+        if (age >= 18) {
+            major.push(age)
         }
-    }
-    return Adultes
+    })
+
+    return major
 }
-console.log(personnesAdultes(personnes));
+console.log(personnesAdultes(ages));
